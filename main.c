@@ -3,7 +3,6 @@
 #include <string.h>
 
 void printStar();
-void printMessage(void);
 int main()
 {
     int order=0, time=0, toppings=0;
@@ -117,7 +116,6 @@ int main()
         }
     }
     printStar();
-    printMessage();
     return 0;
 }
 
@@ -130,55 +128,3 @@ void printStar(void){
             }
             return 0;
 }
-
-/*******************************************
-    ***************************************
-    THE CODE BELOW IS JUST MISCELLANEOUS
-
-    It is responsible for printing the I LOVE COE
-    at the end of the program.
-    ****************************************
-*********************************************/
-
-void printMessage(void){
-int x; double y; int time = 10000000;
-   char c[]=    "\t * * * * *\n\t*\n\t*\n\t*\n\t * * * * *\n\n";
-   char o[]=    "\t * * * * *\n\t*\t  *\n\t*\t  *\n\t*\t  *\n\t * * * * *\n\n";
-    char e[]=   "\t* * * * * *\n\t*\n\t* * * * * *\n\t*\n\t* * * * * *\n\n";
-  //char i[]="* * * * * \t* \t * * * * *  *         *  * * * * *end\n    *   \t* \t*\t  *  *       *   *end\n    *   \t* \t*\t  *   *     *    * * * * *end\n    *   \t* \t*\t  *    *   *     * * * * *end\n    *   \t* \t*\t  *     * *      *end\n* * * * *   \t* * * *  * * * * *       *       * * * * * \end";
-    char i[]="* * * * * \t* \t * * * * *  *         *  * * * * *   \n    *   \t* \t*\t  *  *       *   *   \n    *   \t* \t*\t  *   *     *    * * * * *   \n    *   \t* \t*\t  *    *   *     * * * * *   \n    *   \t* \t*\t  *     * *      *   \n* * * * *   \t* * * *  * * * * *       *       * * * * * \n\n";
-    printf("\n\n");
-    for(x=0; i[x] != NULL; x++){
-        printf("%c", i[x]);
-        for(y=0; y<=time; y++){
-
-        }
-    }
-    for(x=0; c[x]!=NULL; x++)
-   {
-     printf("%c",c[x]);
-      for(y=0; y<=time; y++)
-      {
-      }
-   }
-
-    for(x=0; o[x]!=NULL; x++)
-   {
-     printf("%c",o[x]);
-      for(y=0; y<=time; y++)
-      {
-      }
-   }
-
-
-    for(x=0; e[x]!=NULL; x++)
-   {
-     printf("%c", e[x]);
-      for(y=0; y<=time; y++)
-      {
-      }
-   }
-
-   getch();
-}
-
