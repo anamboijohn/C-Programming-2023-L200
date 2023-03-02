@@ -3,7 +3,7 @@
 #include <string.h>
 
 void printStar();
-main()
+int main()
 {
     int order=0, time=0, toppings=0;
     float cost = 0;
@@ -13,7 +13,7 @@ main()
     int topping_prices[] ={2, 3, 4, 5};
     int small_prices[] = {5, 5, 6, 7};
     int large_prices[] = {8, 8, 9, 10};
-   printf("\n\n\tWELCOME TO FIIFI’S ICE CREAM SHOP\n\tWhat would you like to order?\n\n");
+   printf("\n\n\tWELCOME TO FIIFI\'S ICE CREAM SHOP\n\tWhat would you like to order?\n\n");
 
    do{
     int flavour, size;
