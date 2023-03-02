@@ -26,7 +26,10 @@ int main()
     scanf("%d", &flavour); flavour--;
     printf("\n");
 
-    if(flavour == 4) printf("A customer service agent will be with you soon\n");
+    if(flavour == 4) {
+        printf("A customer service agent will be with you soon\n");
+        break;
+    };
     else if(flavour>4){
         printf("\nInvalid Flavour Entry\n");
     }else{
