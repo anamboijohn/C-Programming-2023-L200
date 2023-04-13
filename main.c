@@ -110,7 +110,7 @@ int main()
 
     char msg[] = "\nTime Up!\nHolala!!! Order Coming Right Up!\n";
     printStar();
-    for(int i=0; msg[i] != NULL; i++){
+    for(int i=0; msg[i] <(int)strlen(msg); i++){
         printf("%c", msg[i]);
         for(int j=0; j<10000000; j++){
         }
@@ -126,5 +126,4 @@ void printStar(void){
 
                 }
             }
-            return 0;
 }

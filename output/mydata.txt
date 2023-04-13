@@ -1,0 +1,6 @@
+num = 20
+str[0] = Store me pls
+str[1] = And me too
+str[2] = Yess do it
+str = this is a str
+flt = 3.322000
